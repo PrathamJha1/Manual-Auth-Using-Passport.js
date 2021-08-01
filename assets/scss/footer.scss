@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    .layout{
+        height:100%;
+    }
+    footer{
+        color:white;
+        background-color: grey;
+        display: flex;
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            li{
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  background-color: #0059ff;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px; }
+  header div {
+    width: 100%; }
+    header div h1 {
+      font-size: 24px;
+      color: white;
+      font-weight: 1200; }
+  header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px; }
+    header ul li {
+      width: 100px; }
+      header ul li a {
+        font-size: 20px;
+        color: white;
+        font-weight: bolder;
+        text-decoration: none; }

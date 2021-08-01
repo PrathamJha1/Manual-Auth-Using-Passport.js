@@ -1,0 +1,17 @@
+body {
+  margin: 0; }
+  body .layout {
+    height: 100%; }
+  body footer {
+    color: white;
+    background-color: grey;
+    display: flex; }
+    body footer ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      body footer ul li a {
+        color: white;
+        text-decoration: none; }
